@@ -1,0 +1,27 @@
+div{
+    display: flex;
+    padding: 20px;
+    margin: 20px auto;
+    width: 55%;
+}
+
+h1{
+    text-align: center;
+}
+
+.top{
+    background: cyan;
+}
+
+.middle{
+    justify-content: space-around;
+    background: pink;
+}
+
+.bottom{
+    background: red;
+}
+
+img.octocat{
+    height: 300px;
+}
