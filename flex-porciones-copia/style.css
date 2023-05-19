@@ -1,0 +1,254 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    background: #000;
+    color: white;
+    align-items: center;
+}
+
+h1{
+    font-size: 2.5em;
+}
+
+.option{
+    display: flex;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+li{
+    margin-left: 40px;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    color: rgb(43, 52, 226);
+}
+
+button{
+    background: rgb(43, 52, 226);
+    padding: 10px;
+    color: white;
+    margin: 10px;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+/* Left-side */
+/* First-side */
+
+.left-side{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    margin-top: 10px;
+}
+
+.div-info{
+    border: 3px solid #5c5c5c;
+    margin: 20px;
+    flex: 2;
+}
+
+.main-info{
+    padding: 30px;
+    line-height: 1.9em;
+    margin-bottom: 0;
+}
+
+.main-info p{
+    width: 270px;
+}
+
+.div-nav{
+    top: 40px;
+    height: 80px;
+    background: rgb(43, 52, 226);
+}
+
+.div-nav img{
+    border-radius: 50%;
+    width: 80px;
+    padding: 30px;
+}
+
+.div-location{
+    display: flex;
+    padding: 10px 0;
+    align-items: end;
+}
+
+.div-location img{
+    margin-top: 10px;
+    width: 20px;
+    margin-right: 10px;
+}
+
+.div-info a{
+    color: #000;
+    align-items: end;
+}
+
+.div-info .gear{
+    width: 15px;
+    margin-bottom: 0;
+}
+
+/* Connection Request */
+
+.con-req{
+    flex: 1;
+    border: 3px solid #5c5c5c;
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+
+.con-nav{
+    display: flex;
+    background: #000;
+    color: white;
+    padding: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+.con-nav h2{
+    border-radius: 50%;
+    background: white;
+    color: #000;
+    width: 20px;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.con-img{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.con-img .person{
+    width: 20%;
+    border-radius: 50%;
+    justify-content: center;
+    padding: 5px 10px;
+}
+
+.cancel, .acept{
+    width: 20%;
+    padding: 5px 10px;
+}
+
+.con-main{
+    padding: 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.acept-cancel{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+/* Right Side */
+
+.right-side{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.education{
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+    margin: 20px;
+    line-height: 2em;
+    border: 3px solid #5c5c5c;
+}
+
+.edu-nav{
+    background: #000;
+    color: white;
+    padding: 10px;
+    justify-content: center;
+}
+
+.edu-info{
+    padding: 10px;
+    align-items: center;
+}
+
+/* Last one */
+
+.your-conec{
+    flex: 1;
+    margin: 20px;
+    border: 3px solid #5c5c5c;
+    display: flex;
+    flex-direction: column;
+}
+
+.connect-nav{
+    padding: 20px;
+    display: flex;
+    background: #000;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.connect-nav h3{
+    border-radius: 50%;
+    width: 60px;
+    text-align: center;
+    background: white;
+    color: #000;
+    margin-right: 20px;
+}
+
+.conect-img{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.conect-img img{
+    width: 70px;
+    border-radius: 50%;
+}
+
+.conect-img h4{
+    margin-left: 10px;
+}
+
+.footer-conec{
+    padding: 20px;
+    border-top: 3px solid #5c5c5c;
+}
+
+.footer-conec a{
+    color: blue ;
+}
