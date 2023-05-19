@@ -3,10 +3,6 @@
     padding: 0;
 }
 
-h1,h2,h3,h4,p{
-    display: inline-block;
-}
-
 body{
     font-family: 'Poppins', sans-serif;
 }
@@ -59,8 +55,9 @@ button{
 /* main */
 
 .container{
-    display: inline-block;
     border: 3px solid #514f4f;
+    align-items: center;
+    flex: 2;
 }
 
 .nav-color{
@@ -81,14 +78,12 @@ img{
 }
 
 .contact-info{
-    display: flex;
     padding: 30px;
     margin-top: 10px;
     flex-direction: column;
 }
 
 .map{
-    display: flex;
     margin-top: 10px;
     margin-bottom: 15px;
 }
@@ -129,6 +124,7 @@ img{
 
 .education{
     border: 3px solid #514f4f;
+    flex: 2;
 }
 
 .education-info{
@@ -148,17 +144,30 @@ img{
 
 /* side 2 */
 .side-2{
-    display: inline-block;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
 }
 .side-1{
-    display: inline-block;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
 }
 
 /* connect */
 
+.connections{
+    flex: 1;
+}
 
 .conec-req, .connections{
     border: 3px solid #514f4f;
+}
+
+.conec-req{
+    flex: 1;
 }
 
 .req, .your-connect{
@@ -208,6 +217,7 @@ img{
 .connections{
     display: flex;
     flex-direction: column;
+    flex: 1;
 }
 
 .footer-conec a{
