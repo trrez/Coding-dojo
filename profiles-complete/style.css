@@ -132,7 +132,9 @@ img{
 
 .education{
     flex: 2;
-    margin: 20px 190px;
+    margin: 20px 150px;
+    justify-content: center;
+    align-items: center;
 }
 
 .education-nav{
