@@ -1,0 +1,221 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1,h2,h3,h4,p{
+    display: inline-block;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    background: #000;
+    color: white;
+    align-items: center;
+}
+
+h1{
+    font-size: 2.5em;
+}
+
+.option{
+    display: flex;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+li{
+    margin-left: 40px;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    color: rgb(43, 52, 226);
+}
+
+button{
+    background: rgb(43, 52, 226);
+    padding: 10px;
+    color: white;
+    margin: 10px;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+/* main */
+
+.container{
+    display: inline-block;
+    border: 3px solid #514f4f;
+}
+
+.nav-color{
+    top: 40px;
+    height: 80px;
+    background: rgb(43, 52, 226);
+}
+
+img{
+    width: 80px;
+    border-radius: 50%;
+    padding: 30px;
+}
+
+.container h1{
+    margin: 0;
+    padding: 0;
+}
+
+.contact-info{
+    display: flex;
+    padding: 30px;
+    margin-top: 10px;
+    flex-direction: column;
+}
+
+.map{
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.location{
+    width: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+.container h3{
+    margin-left: 20px;
+    font-weight: 400;
+}
+
+.info{
+    width: 350px;
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.gear{
+    width: 20px;
+    padding: 0;
+}
+
+.container a{
+    margin-left: 10px;
+    font-size: .9em;
+    color: rgb(43, 52, 226);
+}
+
+/* Div Education */
+
+.education{
+    border: 3px solid #514f4f;
+}
+
+.education-info{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    line-height: 1.8;
+}
+
+.education-info p{
+    color: #8d8989;
+}
+
+.education-info h4{
+    font-weight: 600;
+}
+
+/* side 2 */
+.side-2{
+    display: inline-block;
+}
+.side-1{
+    display: inline-block;
+}
+
+/* connect */
+
+
+.conec-req, .connections{
+    border: 3px solid #514f4f;
+}
+
+.req, .your-connect{
+    background-color: #0b0b0b;
+    color: white;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+}
+
+.req h3, .your-connect h3{
+    border-radius: 50%;
+    background: #fff;
+    padding: 8px 12px;
+    color: black;
+    display: inline-block;
+}
+
+.req p, .your-connect p{
+    margin-left: 10px;
+}
+
+.conect-img{
+    display: flex;
+}
+
+.conect-img img{
+    width: 50px;
+    padding: 10px;
+}
+
+.declain-img{
+    margin-left:10px;
+}
+
+.conect-img h4{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.todd{
+    width: 50px;
+}
+
+.connections{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-conec a{
+    color: blue;
+    text-decoration: underline;
+    padding: 10px;
+}
+
+.footer-conec{
+    border-top: 3px solid #514f4f;
+}
