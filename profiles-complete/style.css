@@ -5,6 +5,14 @@
 
 body{
     font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
 nav{
@@ -55,9 +63,9 @@ button{
 /* main */
 
 .container{
-    border: 3px solid #514f4f;
     align-items: center;
-    flex: 2;
+    flex: 1;
+    margin: 20px 180px;
 }
 
 .nav-color{
@@ -123,8 +131,15 @@ img{
 /* Div Education */
 
 .education{
-    border: 3px solid #514f4f;
     flex: 2;
+    margin: 20px 190px;
+}
+
+.education-nav{
+    background: #000;
+    color: white;
+    padding: 10px 30px;
+    margin-left: -10px;
 }
 
 .education-info{
@@ -162,9 +177,6 @@ img{
     flex: 1;
 }
 
-.conec-req, .connections{
-    border: 3px solid #514f4f;
-}
 
 .conec-req{
     flex: 1;
@@ -226,6 +238,3 @@ img{
     padding: 10px;
 }
 
-.footer-conec{
-    border-top: 3px solid #514f4f;
-}
