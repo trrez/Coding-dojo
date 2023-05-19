@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    width: 60%;
+    margin: 50px auto;
+    border: 3px solid #514f4f;
+}
+
+.nav{
+    top: 40px;
+    height: 80px;
+    background: cyan;
+}
+
+img{
+    width: 80px;
+    border-radius: 50%;
+    padding: 30px;
+}
+
+h1{
+    margin: 0;
+    padding: 0;
+}
+
+.contact-info{
+    display: flex;
+    padding: 30px;
+    margin-top: 10px;
+    flex-direction: column;
+}
+
+.map{
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.location{
+    width: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+h3{
+    margin-left: 20px;
+    font-weight: 400;
+}
+
+.info{
+    width: 350px;
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.gear{
+    width: 20px;
+    padding: 0;
+}
+
+a{
+    margin-left: 10px;
+    font-size: .9em;
+}
