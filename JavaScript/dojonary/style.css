@@ -1,0 +1,161 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200;300;400;500;600;700;800&display=swap");
+
+:root{
+    --playfair-display: "Playfair Display", serif;
+    --plus-jakarta-sans: "Plus Jakarta Sans", sans-serif;
+
+    --primary-color: #b1454a;
+    --secondary-color: #121212;
+    --color-creamson: #fff0de;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: var(--playfair-display);
+}
+
+body {
+    max-width: 1280px;
+    margin: 0 auto;
+    background-color: var(--color-creamson);
+}
+
+main{
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    background: var(--primary-color);
+    padding: 20px;
+}
+
+nav h1{
+    color: #fff;
+    font-family: var(--plus-jakarta-sans);
+    align-self: center;
+}
+
+nav span{
+    color: var(--secondary-color);
+    font-family: var(--plus-jakarta-sans);
+    margin-left: 2px;
+    align-self: center;
+}
+
+nav input{
+    flex: .5;
+
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--plus-jakarta-sans);
+
+    border: none;
+    outline: none;
+
+    border-radius: 20px;
+}
+
+nav input::placeholder{
+    padding-left: 15px;
+}
+
+nav button{
+    align-self: center;
+    padding: 10px;
+
+    font-size: 16px;
+    font-weight: 500;
+    font-family: var(--plus-jakarta-sans);
+    color: #fff;
+    text-align: center;
+
+    background: #1f1e31;
+    border-radius: 40px;
+    border: none;
+    outline: none;
+
+    cursor: pointer;
+}
+
+/* Divs */
+
+.ninja-info{
+    margin: 50px 20px 50px 0;
+    display: flex;
+
+    border: 1px solid var(--primary-color);
+    align-items: center;
+}
+
+.ninja-elements{
+    padding: 20px;
+    text-align: center;
+    line-height: 40px;
+}
+
+.description{
+    margin-left: 40px;
+    padding-right: 10px;
+}
+
+.ninja-info button{
+    align-self: center;
+    padding: 15px;
+    margin-top: 10px;
+
+    font-size: 16px;
+    font-weight: 500;
+    font-family: var(--plus-jakarta-sans);
+    color: #fff;
+    text-align: center;
+
+    background: var(--primary-color);
+    border-radius: 40px;
+    border: none;
+    outline: none;
+
+    cursor: pointer;
+}
+
+/* Add */
+
+.add{
+    margin: 50px 0 0 40px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+
+    border: 1px solid var(--primary-color);
+}
+
+.add span{
+    color: var(--primary-color);
+}
+
+.add button{
+    align-self: center;
+    padding: 15px;
+    margin-top: 10px;
+
+    font-size: 16px;
+    font-weight: 500;
+    font-family: var(--plus-jakarta-sans);
+    color: #fff;
+    text-align: center;
+
+    background: var(--primary-color);
+    border-radius: 40px;
+    border: none;
+    outline: none;
+
+    cursor: pointer;
+}

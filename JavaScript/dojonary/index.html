@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dojonary</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav>
+        <h1>Dojo<span>nary</span></h1>
+        <input type="text" name="search" id="search" placeholder="Search">
+        <button onclick="changeName(this)">Login</button>
+    </nav>
+
+    <main>
+        <div class="ninja">
+            <div class="ninja-info">
+            <div class="ninja-elements">
+                <h2>ninja</h2>
+                <p>noun</p>
+                <h4>Plural: ninjas</h4>
+                <button onclick="wasLiked(this)">13 Likes</button>
+            </div>
+            <h2 class="description">A practitioner skilled in the <span>Japanese</span> art of <span>ninjutsu</span></h2>
+            </div>
+
+            <div class="ninja-info">
+            <div class="ninja-elements">
+                <h2>ninja</h2>
+                <p>noun</p>
+                <h4>Plural: ninjas</h4>
+                <button onclick="wasLiked(this)">37 Likes</button>
+            </div>
+            <h2 class="description">A <span>programmer</span> who breaks down problems
+                with <span>zen</span>-like focus</h2>
+            </div>
+        </div>
+
+        <div class="add">
+            <h2>Dojonary is defined by <span>YOU</span></h2>
+            <button onclick="deleteButton(this)">Add definition</button>
+        </div>
+    </main>
+
+
+    <script src="index.js"></script>
+</body>
+</html>
