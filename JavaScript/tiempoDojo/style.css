@@ -1,0 +1,172 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200;300;400;500;600;700;800&display=swap");
+
+:root {
+    --playfair-display: "Playfair Display", serif;
+    --plus-jakarta-sans: "Plus Jakarta Sans", sans-serif;
+
+    --primary-color: #458fb1;
+    --secondary-color: #121212;
+
+    --black-200: #020202;
+    --black-300: #333333;
+    --black-400: #1f1e31;
+    --black-500: #555555;
+    --gray-100: #c3c3c38a;
+
+    --color-white: #fff;
+    --color-creamson: #fff0de;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background: var(--color-creamson);
+
+    font-family: var(--plus-jakarta-sans);
+}
+
+nav{
+    display: flex;
+
+    background: var(--primary-color);
+    padding: 20px;
+    justify-content: space-around;
+    color: #fff;
+    align-items: center;
+}
+
+nav h1{
+    font-size: 30px;
+    font-weight: 900;
+    font-family: var(--playfair-display);
+}
+
+ul{
+    display: flex;
+
+    font-family: var(--plus-jakarta-sans);
+}
+
+ul li{
+    list-style: none;
+    margin: 0 30px;
+    font-size: 20px;
+}
+
+#show-city{
+    background: transparent;
+    font-family: var(--plus-jakarta-sans);
+    margin: 0 30px;
+    font-size: 20px;
+    color: #fff;
+    border: none;
+    outline: none;
+
+    cursor: pointer;
+}
+
+/*  City div */
+
+.city-div{
+    display: flex;
+    justify-content: space-around;
+
+    border-bottom: 2px solid var(--black-200);
+
+    padding: 20px 0;
+    margin: 0;
+    align-items: center;
+}
+
+.temperature{
+    display: flex;
+}
+
+.temperature p {
+    margin-right: 10px;
+}
+
+
+/*  Weather  */
+
+.weather{
+    display: flex;
+    margin: 20px;
+    justify-content: space-around;
+
+}
+
+.weather-days{
+    text-align: center;
+    background: var(--gray-100);
+    padding: 20px;
+    border:  2px solid var(--black-200);
+}
+
+.weather-days img{
+    border-radius: 50%;
+    width: 200px;
+}
+
+.weather-days h3{
+    margin: 20px;
+}
+
+.weather-days p{
+    margin: 20px;
+}
+
+.weather-temperature{
+    display: flex;
+    justify-content: space-around;
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.high{
+    color: red;
+}
+
+.low{
+    color: var(--primary-color);
+}
+
+/*  Cookie  */
+
+.cookie{
+    display: flex;
+    position: fixed;
+    bottom: 10px;
+    left: 500px;
+    padding: 20px;
+    border: 3px solid var(--black-200);
+}
+
+.cookie img{
+    padding: 10px;
+    width: 100px;
+}
+
+.cookie button{
+    align-self: center;
+    padding: 10px;
+    margin-left: 20px;
+    border-radius: 10px;
+
+    background: var(--primary-color);
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: var(--plus-jakarta-sans);
+
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.6);
+}
+
+.cookie-info p {
+    width: 500px;
+    line-height: 23px;
+}
