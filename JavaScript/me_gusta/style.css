@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200;300;400;500;600;700;800&display=swap");
+
+:root{
+    --playfair-display: "Playfair Display", serif;
+    --plus-jakarta-sans: "Plus Jakarta Sans", sans-serif;
+
+    --primary-color: #b1454a;
+    --secondary-color: #121212;
+    --color-creamson: #fff0de;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: var(--playfair-display);
+}
+
+body {
+    background-color: var(--color-creamson);
+}
+
+nav{
+    margin: 0;
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    background: var(--primary-color);
+    color: #000;
+    font-size: 30px;
+    font-weight: 800;
+    font-family: var(--plus-jakarta-sans);
+    width: 100vw;
+}
+
+h1{
+    text-align: center;
+    padding: 20px;
+}
+
+main{
+    display: flex;
+    margin: 50px;
+    justify-content: center;
+}
+
+.profile{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin: 0 40px;
+    align-content: flex-start;
+    border: 1px solid #b1454a;
+    text-align: center;
+    flex-wrap: wrap;
+    align-self: flex-start;
+}
+
+.some-user{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    border: 1px solid #b1454a;
+}
+
+.some-user div{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+}
+
+.some-user p{
+    padding: 10px;
+}
+
+.some-user span{
+    color: var(--primary-color);
+}
+
+.some-user button{
+    align-self: center;
+    padding: 10px;
+
+    font-size: 16px;
+    font-weight: 500;
+    font-family: var(--plus-jakarta-sans);
+    color: #fff;
+    text-align: center;
+
+    background: #1f1e31;
+    border-radius: 40px;
+    border: none;
+    outline: none;
+
+    cursor: pointer;
+}
