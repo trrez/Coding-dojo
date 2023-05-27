@@ -1,34 +1,31 @@
-const name = document.getElementById('change-name')
-const close = document.querySelector('.card-list-item')
-const close2 = document.querySelector('.card-list-item2')
-const numConnect = document.querySelector('.badge2')
-const numReq = document.querySelector('.badge1')
-const more = document.querySelector('#more')
-const card = document.querySelector('.card-list')
-
-
-function changeName(){
-    name.innerHTML = 'Tatiana Gutierrez'
+function editProfile(){
+    let cardName = document.querySelector('.cardName');
+    cardName.innerText = 'Tatiana Gutierrez'
 }
 
-function removePerson(){
-    let req = numReq.textContent
-    let num = numConnect.textContent
-    close.remove()
-    num--
-    req--
-    numReq.innerHTML = req
-    numConnect.innerHTML = num
-}
+function removeUser(element, action){
+    let requestNumber = document.querySelector("#connectionRequestNumber")
+    let currentNumber = Number(requestNumber.textContent)
+    currentNumber--
+    requestNumber.textContent = currentNumber
 
-function removePerson2(){
-    let req = numReq.textContent
-    let num = numConnect.textContent
-    console.log(num)
-    close2.remove()
-    num--
-    req--
-    numReq.innerHTML = req
-    numConnect.innerHTML = num
-}
+    let user = element.closest(".card-list-item")
+    let buttons = element.closest(".buttons")
+    buttons.remove()
+    let userContent = user.innerHTML
+    user.remove()
 
+    if(action === 'add'){
+        let myConnections = document.querySelector("#myConnections")
+        myConnections.innerHTML += `
+            <li class="card-list-item start">
+                ${userContent}
+            </li>
+        `
+
+        let totalConnections = document.querySelector("#totalConnections")
+        currentNumber = Number (totalConnections.textContent)
+        currentNumber++
+        totalConnections.textContent = currentNumber
+    }
+}

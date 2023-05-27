@@ -3,12 +3,20 @@
 
 int main(void)
 {
-    // Prompt user for x
-    int x = get_int("x: ");
+    string s = get_string("Enter string: ");
 
-    // Prompt user for y
-    int y = get_int("y: ");
+    // ensure string was read
+    if (s == NULL)
+    {
+        return 1;
+    }
 
-    // Perform addition
-    printf("%i\n", x + y);
+    string next = get_string("You just entered %s. Enter a new string: ", s);
+
+    if (next == NULL)
+    {
+        return 1;
+    }
+
+    printf("Your last string was %s\n", next);
 }
